@@ -19,10 +19,3 @@ export const { setCharacters } = characterSlices.actions
 
 export default characterSlices.reducer
 
-export const getAllCharacters = () => (dispatch) => {
-  getCharacters()
-  .then(response => {
-       dispatch(setCharacters(response));
-    })
-  .catch(err => console.log(err))
-}

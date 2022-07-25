@@ -11,3 +11,7 @@ export default store
 
 
 
+//exports debe ser con {}
+// exports default sin {}
+
+

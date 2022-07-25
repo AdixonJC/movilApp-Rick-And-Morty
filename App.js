@@ -17,7 +17,7 @@ const App = () => {
 
 
   return (
-      <Provider store={store}>
+    <Provider store={store}>
     <NavigationContainer>
       <stackRickAndMorty.Navigator initialRouteName='Home'>
           <stackRickAndMorty.Screen
